@@ -1,0 +1,36 @@
+{
+  "name": "react-micro-slider",
+  "version": "0.0.1",
+  "description": "A react port of micro slider",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "npm i && npm run build",
+    "build": "babel src -d dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react",
+    "micro-slider",
+    "slider",
+    "carousel"
+  ],
+  "author": "Érico de Souza Loewe",
+  "license": "MIT",
+  "dependencies": {
+    "micro-slider": "^1.0.9",
+    "react": "^16.2.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.4",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-es2015-modules-umd": "^6.24.1",
+    "babel-plugin-transform-es2015-spread": "^6.22.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-plugin-transform-object-set-prototype-of-to-assign": "^6.22.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1"
+  }
+}

@@ -1,0 +1,30 @@
+# OSX
+.DS_Store
+
+# Visual Studio Code
+.history
+
+# Node Modules
+node_modules/
+
+# Log
+*.log
+npm-*.log*
+yarn-*.log*
+
+# Environment
+.env.*
+.env
+
+# Lock
+package-lock.json
+yarn.lock
+
+# Build
+dist/
+
+# Temp
+temp/
+
+# Path
+.idea/

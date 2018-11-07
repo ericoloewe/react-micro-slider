@@ -10,7 +10,6 @@
         "spec": true
       }
     ],
-    "transform-es2015-modules-umd",
     "transform-es2015-spread",
     "transform-object-rest-spread",
     "transform-object-set-prototype-of-to-assign"

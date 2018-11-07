@@ -66,7 +66,7 @@ export default class ReactMicroSlider extends React.Component {
         component = previousArrow
       } else {
         component = (
-          <button type="button" data-role="none" class="micro-slider-arrow previous" onClick={this._moveToPreviousSlide}>
+          <button type="button" data-role="none" className="micro-slider-arrow previous" onClick={this._moveToPreviousSlide}>
             Previous
           </button>
         )
@@ -85,7 +85,7 @@ export default class ReactMicroSlider extends React.Component {
         component = nextArrow
       } else {
         component = (
-          <button type="button" data-role="none" class="slider-arrow next" onClick={this._moveToNextSlide}>
+          <button type="button" data-role="none" className="slider-arrow next" onClick={this._moveToNextSlide}>
             Next
           </button>
         )

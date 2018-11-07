@@ -1,6 +1,6 @@
 # React micro slider
 
-A react port of micro slider
+> A react port of [micro slider](https://github.com/lgse/micro-slider)
 
 This project uses [React](https://reactjs.org/) and [Babel](https://babeljs.io/).
 
